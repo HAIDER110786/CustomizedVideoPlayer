@@ -1,0 +1,54 @@
+body{
+    background-color: bisque;
+    margin: 0;
+    overflow: hidden;
+}
+
+.videoPlaying{
+    margin: 0;
+}
+
+.videoControls{
+    background-color:#EFEFEF;
+    width: 850px;
+    height: 20px;
+    display:flex;
+    align-items:center;
+}
+
+.videoControls button{
+    border: none;
+}
+
+.video_details{
+    width: 850px;
+}
+
+.videoControls{
+    border: none;
+    display: none;
+    justify-content: space-between;
+    width: inherit;
+}
+
+.bufferZone{
+    width: inherit;
+    height: 5px;
+    background-color:white;
+}
+
+.buffered{
+    width: 0%;
+    height:inherit;
+    background-color:blue;
+    flex-basis: 50%;
+}
+
+.video_details{    
+    transition:0.2s;
+    margin-top: -4px;
+}
+
+#fullscreen:focus{
+    outline: none;
+}
